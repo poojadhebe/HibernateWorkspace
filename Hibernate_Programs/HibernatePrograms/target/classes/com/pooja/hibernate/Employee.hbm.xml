@@ -1,0 +1,16 @@
+<!DOCTYPE hibernate-mapping PUBLIC
+"-//Hibernate/Hibernate Mapping DTD X.X//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-
+X.X.dtd">
+<hibernate-mapping>
+<class name="com.pooja.hibernate.Employee" table="Employee">
+<id name="id" column="empid" type="long">
+<generator class="increment"/>
+</id>
+<property name="firstName" column="firstName"/>
+<property name="salary" column="salary"/>
+<many-to-one name="department" class="com.pooja.hibernate.Department">
+<column name="department"/>
+</many-to-one>
+</class>
+</hibernate-mapping>
