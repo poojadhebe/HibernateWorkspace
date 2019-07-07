@@ -22,9 +22,14 @@
 	</natures>
 	<linkedResources>
 		<link>
-			<name>src</name>
+			<name>java</name>
 			<type>2</type>
-			<location>C:/Pooja/Workspace/HibernateAnnotationDemo/src</location>
+			<location>C:/Pooja/Workspace/HibernateAnnotationDemo/src/main/java</location>
+		</link>
+		<link>
+			<name>src.main.java</name>
+			<type>2</type>
+			<location>C:/Pooja/Workspace/HibernateAnnotationDemo/src/main/java</location>
 		</link>
 	</linkedResources>
 </projectDescription>
